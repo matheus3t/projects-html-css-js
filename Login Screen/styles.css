@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(assets/background-container.jpg);
+  background-size: 100vw 100vh;
+}
+
+.login-welcome-message {
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  left: 434px;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.login-welcome-message h1 {
+  font-size: 25pt;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.login-welcome-message p {
+  font-size: 12pt;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.login-box {
+  width: 360px;
+  height: 450px;
+  position: absolute;
+  top: 150px;
+  left: 503px;
+  text-align: center;
+  color: #f6f6f6;
+  background-color: rgba(17, 20, 19, 0.90);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #131413;
+}
+.login-box h1 {
+  font-size: 30pt;
+  text-shadow: 5px 5px 10px #131413;
+  margin: 20px 0 15px 0;
+}
+.login-box form .credentials-field {
+  width: 300px;
+  margin: auto;
+}
+.login-box form .credentials-field input {
+  width: 250px;
+  height: 37px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #131413;
+  font-size: 11.5pt;
+  color: #131413;
+}
+.login-box form .credentials-field input:hover {
+  background-color: #e2e2ee;
+}
+.login-box form .remember-me-field {
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.login-box form .remember-me-field input {
+  align-items: center;
+  margin: 5.5px;
+  box-shadow: 1px 1px 10px #000;
+}
+.login-box form .remember-me-field input:hover {
+  cursor: pointer;
+}
+.login-box form .remember-me-field label {
+  font-size: 10.5pt;
+  margin: 4.4px 0 5px 3px;
+  text-shadow: 5px 5px 10px #000;
+}
+.login-box form button {
+  width: 240px;
+  height: 40px;
+  margin-top: 15px;
+  border: 0;
+  border-radius: 18px;
+  color: #fff;
+  background-color: #4574ec;
+  font-size: 12pt;
+  box-shadow: 5px 5px 10px #131413;
+}
+.login-box form button:hover {
+  background-color: rgba(46, 94, 214, 0.75);
+  color: #fff;
+  cursor: pointer;
+}
+.login-box .create-and-forgot {
+  width: 200px;
+  /* background-color: red; */
+  margin: 20px 0 0 60px;
+  text-align: left;
+}
+.login-box .create-and-forgot a {
+  text-decoration: none;
+}
+.login-box .create-and-forgot a p {
+  color: #fff;
+  font-size: 10.5pt;
+  margin-bottom: 5px;
+  text-shadow: 5px 5px 10px #000;
+  text-decoration: underline;
+}
+.login-box .create-and-forgot a p:hover {
+  color: #4574ec;
+}
+.login-box .other-login-methods {
+  margin-top: 15px;
+}
+.login-box .other-login-methods p {
+  margin-top: 26px;
+  font-size: 11pt;
+  text-shadow: 5px 5px 10px #000;
+}
+.login-box .other-login-methods .social-images {
+  width: 200px;
+  position: absolute;
+  top: 385px;
+  left: 83px;
+  outline: 0;
+}
+.login-box .other-login-methods .social-images img {
+  width: 42px;
+  border: 3px solid rgba(17, 20, 19, 0.1);
+  border-radius: 30px;
+  margin-right: 5px;
+}
+
+.login-box .other-login-methods .social-images img:hover {
+  border-color: #4574ec;
+  cursor: pointer;
+}
+
